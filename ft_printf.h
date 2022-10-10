@@ -6,7 +6,7 @@
 /*   By: kmoutaou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 22:41:09 by kmoutaou          #+#    #+#             */
-/*   Updated: 2021/11/28 18:12:47 by kmoutaou         ###   ########.fr       */
+/*   Updated: 2022/10/10 14:08:06 by kmoutaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,5 @@ void	ft_putstr(char *s, int *len);
 void	ft_putnbr(int n, int *len);
 void	ft_putnbr_u(unsigned int n, int *len);
 void	ft_putpointer(unsigned long nbr, char *base,  int *len);
-sudo update-alternatives --install /usr/bin/cc cc /usr/bin/clang-3.5 100
-sudo update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang++-3.5 100
 
 #endif

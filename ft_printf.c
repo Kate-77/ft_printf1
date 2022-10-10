@@ -6,7 +6,7 @@
 /*   By: kmoutaou <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 22:33:23 by kmoutaou          #+#    #+#             */
-/*   Updated: 2021/11/28 18:11:35 by kmoutaou         ###   ########.fr       */
+/*   Updated: 2022/10/10 14:12:23 by kmoutaou         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,4 +71,9 @@ int ft_printf(const char *format, ...)
 	}
 	va_end(args);
 	return (len);
+}
+
+int	main()
+{
+	ft_printf("ho %d\n", ft_printf("%x\n", -2147483648));
 }
